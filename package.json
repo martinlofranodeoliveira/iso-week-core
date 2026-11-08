@@ -1,0 +1,14 @@
+{
+  "name": "iso-week-core",
+  "version": "0.1.0",
+  "description": "Gregorian to ISO week date conversion and back, with 53-week year handling. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/week.test.js",
+    "demo": "node bin/week.mjs --assert"
+  }
+}
